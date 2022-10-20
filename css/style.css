@@ -11,6 +11,7 @@ h3, h4, h5{
 .container{
     width: 75%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 p{
@@ -24,7 +25,8 @@ p{
     height: 100px;
 }
 .row{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .row .card{
@@ -40,7 +42,7 @@ p{
 .text{
     float: right;
     line-height: 10px;
-   
+   margin-right: 30px;
 }
 .card{
     margin-right: 10px;
@@ -52,5 +54,5 @@ p{
     clear: both;
 }
 .link{
-    color: rgb(91, 101, 251);
+    color: rgb(10, 104, 255);
 }

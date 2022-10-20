@@ -20,8 +20,19 @@ p{
 .row .card img{
     height: 100px;
 }
+.row_2 .card img{
+    height: 100px;
+}
+.row{
+    margin-bottom: 20px;
+}
 
 .row .card{
+    float: left;
+    width: calc(90% / 3);
+    background-color: black;
+}
+.row_2 .card{
     float: left;
     width: calc(90% / 3);
     background-color: black;
@@ -41,5 +52,5 @@ p{
     clear: both;
 }
 .link{
-    color: blue;
+    color: rgb(91, 101, 251);
 }

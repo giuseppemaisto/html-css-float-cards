@@ -4,3 +4,42 @@ h1{
     font-family: 'Fredoka One', cursive;
    
 }
+h3, h4, h5{
+    color: white;
+    font-family: 'Fredoka One', cursive;  
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    
+}
+.row .card img{
+    height: 100px;
+}
+
+.row .card{
+    float: left;
+    width: calc(90% / 3);
+    background-color: black;
+}
+.text{
+    float: right;
+    line-height: 10px;
+   
+}
+.card{
+    margin-right: 10px;
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.link{
+    color: blue;
+}
